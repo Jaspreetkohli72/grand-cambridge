@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Contact - Grand Cambridge Bootstrap Template</title>
+  <title>About - Grand Cambridge Bootstrap Template</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="/assets/img/favicon.png" rel="icon">
+  <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link
@@ -19,16 +19,17 @@
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Grand Cambridge - v4.7.0
@@ -36,6 +37,16 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <script>
+    function myFunction() {
+      document.getElementById("demo").innerHTML = "<ol><li> Lorem, ipsum.</li><li>Lorem, ipsum.</li><li>Lorem, ipsum.</li><li> Lorem, ipsum.</li ><li>Lorem, ipsum.</li><li>Lorem, ipsum.</li><li>Lorem, ipsum.</li><li>Lorem, ipsum.</li><li>Lorem, ipsum.</li><li>Lorem, ipsum.</li><li>Lorem, ipsum.</li><li>Lorem, ipsum.</li><li>Lorem, ipsum.</li><li>Lorem, ipsum.</li><li>Lorem, ipsum.</li></ol ><button class=\"btn btn-primary\" onclick=\"revealFun()\">Click to hide answers</button>";
+      document.getElementById("newBtn").style.display = "none";
+    }
+    function revealFun() {
+      document.getElementById("demo").innerHTML = "";
+      document.getElementById("newBtn").style.display = "block";
+    }
+  </script>
 </head>
 
 <body>
@@ -44,57 +55,41 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.html">Grand Cambridge</a></h1>
+      <h1 class="logo me-auto"><a href="/index.html">Grand Cambridge</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="reading.html">Reading</a></li>
-          <li><a href="writing.html">Writing</a></li>
-          <li><a href="listening.html">Listening</a></li>
-          <li><a href="speaking.html">Speaking</a></li>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/reading.html">Reading</a></li>
+          <li><a href="/writing.html">Writing</a></li>
+          <li><a href="/listening.html">Listening</a></li>
+          <li><a class="active" href="/speaking.html">Speaking</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="login.html" class="log-in-btn">Log in</a>
+      <a href="/login.html" class="log-in-btn">Log in</a>
 
     </div>
   </header><!-- End Header -->
 
   <main id="main">
-
-    <!-- ======= Contact Section ======= -->
-
-    <section id="contact" class="contact" style="margin-top: 9vh;">
-
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about" style="margin-top: 2vh;">
       <div class="container" data-aos="fade-up">
-
-        <div class="row mt-5">
-
-          <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="forms/login.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group mt-3">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
-                </div>
-              </div>
-              <div class="col-md-6 form-group mt-3">
-                <input type="password" class="form-control" name="password" id="password" placeholder="Password"
-                  required>
-              </div>
-              <div style="margin-top:2vh ;"><button type="submit">Login</button></div>
-            </form>
-
-          </div>
-
-        </div>
+        <h2>Question</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum culpa dolor eveniet, vel nostrum incidunt
+          dicta commodi animi autem odit!</p>
+        <h2>Answers</h2>
+        <input type="file" name="Sol" id="speaking">
+      </div>
 
       </div>
-    </section><!-- End Contact Section -->
+    </section><!-- End About Section -->
+
+
 
   </main><!-- End #main -->
 
@@ -157,14 +152,14 @@
       class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="/assets/vendor/purecounter/purecounter.js"></script>
+  <script src="/assets/vendor/aos/aos.js"></script>
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="/assets/js/main.js"></script>
 
 </body>
 
