@@ -41,28 +41,8 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center">
-
-      <h1 class="logo me-auto"><a href="index.html">Grand Cambridge</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a class="active" href="reading.html">Reading</a></li>
-          <li><a href="writing.html">Writing</a></li>
-          <li><a href="listening.html">Listening</a></li>
-          <li><a href="speaking.html">Speaking</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-      <a href="login.html" class="log-in-btn">Log in</a>
-
-    </div>
-  </header><!-- End Header -->
+  <?php require 'partials/_mainNav.php'; ?>
+  <!-- End Header -->
 
   <main id="main">
     <!-- ======= Breadcrumbs ======= -->
@@ -73,12 +53,12 @@
             <img src="assets/img/about.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>Details of Reading test</h3>
+            <h3>Details of Speaking test</h3>
             <p class="fst-italic">
-              You will have to read the given passage and write down the correct answers.
+              You will be given a topic about which you have to record yourself speaking for the given amount of time.
             </p>
             <p>
-              Answers can be checked by using the button given at the end of the test.
+              Recording can be submitted for checking by using the button given at the end of the test.
             </p>
 
           </div>
@@ -104,7 +84,7 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <button class="btn btn-primary" style="font-size: 10rem;"
-                  onclick="window.location.href='tests/reading/test1.html'">Test
+                  onclick="window.location.href='tests/speaking/test1.html'">Test
                   1</a></button>
               </div>
             </div><!-- End testimonial item -->
@@ -112,7 +92,7 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <button class="btn btn-primary" style="font-size: 10rem;"
-                  onclick="window.location.href='tests/reading/test1.html'">Test
+                  onclick="window.location.href='tests/speaking/test1.html'">Test
                   2</a></button>
               </div>
             </div><!-- End testimonial item -->
@@ -120,7 +100,7 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <button class="btn btn-primary" style="font-size: 10rem;"
-                  onclick="window.location.href='tests/reading/test1.html'"> Test
+                  onclick="window.location.href='tests/speaking/test1.html'"> Test
                   3</a></button>
               </div>
             </div><!-- End testimonial item -->
@@ -128,7 +108,7 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <button class="btn btn-primary" style="font-size: 10rem;"
-                  onclick="window.location.href='tests/reading/test1.html'"> Test
+                  onclick="window.location.href='tests/speaking/test1.html'"> Test
                   4</a></button>
               </div>
             </div><!-- End testimonial item -->
@@ -136,7 +116,7 @@
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <button class="btn btn-primary" style="font-size: 10rem;"
-                  onclick="window.location.href='tests/reading/test1.html'"> Test
+                  onclick="window.location.href='tests/speaking/test1.html'"> Test
                   5</a></button>
               </div>
             </div><!-- End testimonial item -->
