@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>About - Grand Cambridge Bootstrap Template</title>
+  <title>Grand Cambridge</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -41,25 +41,65 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <?php require 'partials/_mainNav.php'; ?>
-  <!-- End Header -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html">Grand Cambridge</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="reading.html">Reading</a></li>
+          <li><a href="writing.html">Writing</a></li>
+          <li><a href="listening.html">Listening</a></li>
+          <li><a href="speaking.html">Speaking</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="login.html" class="log-in-btn">Log in</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex justify-content-center align-items-center">
+    <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Learning Today,<br>Leading Tomorrow</h1>
+      <h2>The best place to learn IELTS.</h2>
+      <a href="courses.html" class="btn-log-in">Log in</a>
+    </div>
+  </section><!-- End Hero -->
 
   <main id="main">
-    <!-- ======= Breadcrumbs ======= -->
-    <section id="about" class="about" style="margin-top: 9vh;">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
       <div class="container" data-aos="fade-up">
+
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
             <img src="assets/img/about.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>Details of Listening test</h3>
+            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
             <p class="fst-italic">
-              You are allowed to play the recording once only and, while it is playing you can take down notes. you will
-              have 10 mins of time after the recording has stopped to write down the answers.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore
+              magna aliqua.
             </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+              <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+                pariatur.</li>
+            </ul>
             <p>
-              Answers can be checked by using the button given at the end of the test.
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+              voluptate
             </p>
 
           </div>
@@ -68,66 +108,38 @@
       </div>
     </section><!-- End About Section -->
 
+    </div>
 
+    </div>
+    </section><!-- End Popular Courses Section -->
 
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
+    <!-- ======= Trainers Section ======= -->
+    <section id="trainers" class="trainers">
       <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
-          <h2>Sample Tests</h2>
-          <p>Practice Papers</p>
-        </div>
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <button class="btn btn-primary" style="font-size: 10rem;"
-                  onclick="window.location.href='tests/listening/test1.html'">Test
-                  1</a></button>
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="assets/img/trainers/trainer-1.jpg" class="img-fluid" alt="">
+              <div class="member-content">
+                <h4>Walter White</h4>
+                <span>Web Development</span>
+                <p>
+                  Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut
+                  aut aut
+                </p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
               </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <button class="btn btn-primary" style="font-size: 10rem;"
-                  onclick="window.location.href='tests/listening/test1.html'">Test
-                  2</a></button>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <button class="btn btn-primary" style="font-size: 10rem;"
-                  onclick="window.location.href='tests/listening/test1.html'"> Test
-                  3</a></button>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <button class="btn btn-primary" style="font-size: 10rem;"
-                  onclick="window.location.href='tests/listening/test1.html'"> Test
-                  4</a></button>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <button class="btn btn-primary" style="font-size: 10rem;"
-                  onclick="window.location.href='tests/listening/test1.html'"> Test
-                  5</a></button>
-              </div>
-            </div><!-- End testimonial item -->
-
+            </div>
           </div>
-          <div class="swiper-pagination" style="margin-top: 3rem;margin-bottom: none;"></div>
         </div>
-
       </div>
-    </section><!-- End Testimonials Section -->
+    </section><!-- End Trainers Section -->
 
   </main><!-- End #main -->
 
